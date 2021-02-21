@@ -168,6 +168,12 @@
 
 ![请输入图片描述][21]
 
+## 其他
+
+本主题的一些`JS css`表情包文件，我都存放在github！然后使用cdn加速！
+
+不放心的同学,可以 FORK [https://github.com/xiamuguizhi/oss][22] 到自己仓库保存！
+
 
   [1]: https://imhanjie.com/
   [2]: https://github.com/imhanjie/gridea-theme-pure
@@ -190,3 +196,4 @@
   [19]: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2fa930c8-feec-4942-ac88-ba3781377bb0/f114dcf5-9297-49e9-b99d-ebd2e00caba5.png
   [20]: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2fa930c8-feec-4942-ac88-ba3781377bb0/cc75fb2a-fac2-44c2-90fe-e11369b58301.png
   [21]: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2fa930c8-feec-4942-ac88-ba3781377bb0/46c28257-8403-4ab8-9d1f-29f64ed85ab6.png
+  [22]: https://github.com/xiamuguizhi/oss
