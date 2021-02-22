@@ -42,7 +42,8 @@
 
 <script src="<?php $this->options->themeUrl("js/Walker-img.js"); ?>" type="text/javascript"></script>
 <script src="<?php $this->options->themeUrl("js/moment.min.js"); ?>" type="text/javascript"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.init({noteMargin: 10}, ".lang-mermaid");</script>
 <?php if ($this->options->top == 'able'): ?>
 <script src="https://cdn.jsdelivr.net/gh/fz6m/lamu-leimu-button@1.2/dist/lamu-leimu.min.js"></script>
 <?php else: ?>
