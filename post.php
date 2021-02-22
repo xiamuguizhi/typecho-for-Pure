@@ -42,7 +42,5 @@
 				<?php $this->thePrev('%s','没有了'); ?>
 				</div>
             </div>
-            <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-            <script>mermaid.init({noteMargin: 10}, ".lang-mermaid");</script>
 			
 <?php $this->need('footer.php'); ?>
