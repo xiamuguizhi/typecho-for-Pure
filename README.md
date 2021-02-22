@@ -168,11 +168,45 @@
 
 ![请输入图片描述][21]
 
+## PJAX百度统计
+
+百度统计pjax失效解决,修改 `Pure\js\moment.min.js` `84`行代码
+
+改成自己的百度统计,重新加载一次就正常了！
+
+```js
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?8af9735d76b164d50dfc42e09a5c5633"; //替换为自己的百度统计地址
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+``` 
+
 ## 其他
 
 本主题的一些`JS css`表情包文件，我都存放在github！然后使用cdn加速！
 
 不放心的同学,可以 FORK [https://github.com/xiamuguizhi/oss][22] 到自己仓库保存！
+
+## 下载地址
+
+Github: [https://github.com/xiamuguizhi/typecho-for-Pure][23]
+本站下载: [Pure.zip][24]
+
+## 主题更新
+
+2021.2.21 感谢 [臭蛋][25] 添加 ` mermaid `的支持（一个在 markdown 下画图标的库）
+
+效果如下：
+
+```mermaid
+graph LR;
+　　Portal-->|发布/更新配置|Apollo配置中心;
+　　Apollo配置中心-->|实时推送|App;
+　　App-->|实时查询|Apollo配置中心;
+```
 
 
   [1]: https://imhanjie.com/
@@ -197,3 +231,7 @@
   [20]: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2fa930c8-feec-4942-ac88-ba3781377bb0/cc75fb2a-fac2-44c2-90fe-e11369b58301.png
   [21]: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2fa930c8-feec-4942-ac88-ba3781377bb0/46c28257-8403-4ab8-9d1f-29f64ed85ab6.png
   [22]: https://github.com/xiamuguizhi/oss
+  [23]: https://github.com/xiamuguizhi/typecho-for-Pure
+  [24]: https://xiamuyourenzhang.cn/usr/uploads/2021/02/2225728573.zip
+  [25]: https://blog.cdbb.me/
+  [26]: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-2fa930c8-feec-4942-ac88-ba3781377bb0/6050ca9b-6830-4b19-a102-884b59663b39.png
